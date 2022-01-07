@@ -1,0 +1,7 @@
+Classes que podem conter métodos abstratos
+ - um método abstrato é um método que é declarado, porém não contém implementação
+
+Não pode ser instanciada (ela é só um molde para outras classes)
+
+Exige subclasses que tenham implementação dos métodos abstratos
+

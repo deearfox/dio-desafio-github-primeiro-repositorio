@@ -1,0 +1,3 @@
+É semelhando a uma classe abstrata, mas não possui atributos e não pode definir como os métodos devem ser implementados
+Em vez disso, é simplesmente uma lista de métodos que devem ser implementados
+
