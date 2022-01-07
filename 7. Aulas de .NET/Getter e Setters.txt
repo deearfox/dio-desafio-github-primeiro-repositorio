@@ -1,0 +1,12 @@
+O Get e Sete é atribuir um valor em uma variável de maneira controlada e com
+validações
+
+public int GetMes()
+
+return this.mes;
+
+public void SetMes(int mes)
+
+if (mes > 0 && mes <= 12)
+
+this.mes = mes;

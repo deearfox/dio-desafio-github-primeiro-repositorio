@@ -1,0 +1,44 @@
+<<OperacoesArray>>
+
+using System;
+
+namespace Colecoes.Helper
+{
+    public class OperacoesArray
+    {
+
+	     public bool TodosMaiorque(int[] array, int valor)
+        {
+            return Array.TrueForAll(array, elemento => elemento > valor);
+        }
+
+<<Program>>
+
+using System;
+using System.Collections.Generic;
+using Colecoes.Helper;
+
+
+namespace Colecoes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+		OperacoesArray op = new OperacoesArray()
+		int[] array = new int[5] {6, 3, 8, 1, 9};
+
+		int[] arrayCopia = new int[10];
+
+		int valorProcurado = 0;
+
+		bool todosMaiorQue = op.TodosMaiorQue(array, valorProcurado);
+		
+		if (todosMaiorQue)
+		{
+			System.Console.WriteLine("Todos os valores são maior que {0}, valorProcurado);
+		}
+		else
+		{
+			System.Console.WriteLine("Existe valores que não são maiores do que {0}, valorProcurado");
+		}

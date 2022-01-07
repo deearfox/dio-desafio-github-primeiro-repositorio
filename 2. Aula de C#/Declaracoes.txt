@@ -1,0 +1,15 @@
+using System;
+
+namespace Instrucoes
+{
+	Class Program
+	{
+		static void Declaracoes()
+		{
+			int a;
+			int b = 2;
+			int c = 3;
+			const int d = 4;
+			int = 1;
+			Console.WriteLine (a + b + c + d);
+		}

@@ -1,0 +1,31 @@
+static void InstrucoesTryCatchFinallyThrow(string[] args)
+{
+	double Dividir(double x, double y)
+	{
+		if(y==0)
+	 	   throw new DivideByZeroException();
+		return x / y;
+	}
+
+	try
+	{
+
+		if (args.Length != 2)  << se o meu número de argumentos for diferente de 2)
+		{
+		    throw new InvalidOperationException("Informe 2 números");  <<pede para informar 2 números>
+		}
+		
+		double x = double.Parse(args[0]); << posição 1 >>
+		double y = double.Parse(args[1]); << posição 2 >>
+		Console.WriteLine(Dividir(x,y));
+	}
+	catch (InvalidOperationException e)
+	{
+		Console.WriteLine(e.Message);
+	}
+	finally
+	{
+		Console.WriteLine("Até breve!");
+	}
+
+	

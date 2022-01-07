@@ -1,0 +1,9 @@
+static void InstrucaoWhile(string[] args)
+{
+	int i = 0
+	while (i < args.Length) <<número de argumentos que eu tenho>>
+	{
+		Console.WriteLine(args[i]);
+		i++;
+	}
+}

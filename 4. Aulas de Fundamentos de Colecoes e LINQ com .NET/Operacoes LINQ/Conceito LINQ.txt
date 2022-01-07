@@ -1,0 +1,6 @@
+É uma consulta integrada a linguagem
+
+É uma maneira de fazer operações nas coleções de maneira padronizada
+
+Exemplo: where, orderby, select
+

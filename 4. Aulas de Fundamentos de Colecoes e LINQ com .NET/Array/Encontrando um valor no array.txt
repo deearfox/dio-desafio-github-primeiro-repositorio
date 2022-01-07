@@ -1,0 +1,45 @@
+<<OperacoesArray>>
+
+using System;
+
+namespace Colecoes.Helper
+{
+    public class OperacoesArray
+    {
+
+	   public int ObterValor (int[] array, int valor)
+        {
+            return Array.Find(array, element => element == valor);
+        }
+
+<<Program>>
+
+using System;
+using System.Collections.Generic;
+using Colecoes.Helper;
+
+
+namespace Colecoes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+		OperacoesArray op = new OperacoesArray()
+		int[] array = new int[5] {6, 3, 8, 1, 9};
+
+		int[] arrayCopia = new int[10];
+
+		int valorProcurado = 9;
+
+		int valorAchado = op.ObterValor(array, valorProcurado);
+ 
+		
+		if (valorAchado > 0)
+		{
+			System.Console.WriteLine("Encontrei o valor");
+		}
+		else
+		{
+			System.Console.WriteLine("Não encontrei o valor");
+		}

@@ -1,0 +1,41 @@
+Link para download do Git: https://git-scm.com/downloads
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Git é um tipo de versionamento de código distribuido e foi criado pelo Linus Torvalds.
+
+Benefícios do Git:
+Controle de versão;
+Armazenamento em nuvem;
+Trabalho em equipe;
+Melhorar seu código;
+Reconhecimento.
+
+dir + ENTER: lista os diretórios e todas as pastas contidas nele.
+ls + ENTER
+
+cd /(change directory): navegar entre as pastas.
+
+cd Windows
+
+cd.. retrocede um nível.
+
+cls: limpar a tela
+Ctrl + L 
+clear
+
+Tab: auto completar
+
+mkdir: criar pasta
+
+echo: printa uma frase, texto
+
+echo hello >: redirecionamento de fluxo
+
+del: deleta tudo que esta dentro da pasta
+
+"seta para cima": navega no histórico de comandos que já utilizou
+
+rmdir /S /Q: remove o repositório
+
+
+

@@ -1,0 +1,6 @@
+É uma coleção de chave e valor, permitindo que você recupere rapidamente seus itens
+baseado em sua chave
+
+Armazena sua chave em hash
+
+Dictionary <string, string> estados = new Dictionary<string, string>();

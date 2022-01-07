@@ -1,0 +1,73 @@
+Array - é uma coleção de itens do mesmo tipo.
+
+1 - int[]array = new int [4]
+2 - int[]array = new int[]{42,75,74,61}
+3- string[]nomes ={"Jan","Fev"};
+
+Índice é a posição de um determinado valor de um array, sempre começa com ZERO.
+
+var elemento = array[0]
+array[0]=42
+
+O array pode possuir mais de uma dimensão:
+
+int[,]array=new int[4,2];
+
+4 = número de linhas
+2 = númeor de colunas
+
+acessar um valor: array [1,1]
+
+
+<<Ordenando Arrays>>
+
+Algoritmos de ordenação:
+
+visualgo.net/en/sorting - ele permite que você visualize alguns algoritmos
+de comparação e ver de maneira visual como eles funcionam.
+Bubble Sort - ordena o array com base na comparação, caso for maior, ele realiza
+a troca.
+
+do
+
+	swapped = false
+	for i = 1 to indexOfLastUnsorteElement-1
+	     swap(leftElement, rightElement)
+	     swapped = true
+
+while swapped
+
+Classe Array - para facilitar o seu trabalho com array. 
+
+
+Coleções Genéricas - classes de coleções que agrupam valores e essas classes
+são padronizadas para as operações mais comuns, como:
+
+Ordenação
+Obter valor por índice
+Obter valor com expressões
+Trabalhar com tamanhos dinâmicos
+
+Classes System.Collection.Generic
+
+
+<<Coleção específica>>
+
+As coleções específicas implementam regras para sua ordem de acesso e manipulação
+de seus elementos, são elas:
+
+Queue (Fila): obedece a ordem FIFO (First In First Out)
+Stack (Pilha): Obedece a ordem LIFO (Last In First Out)
+
+<<Dicionarios>>
+
+
+
+
+
+
+
+
+
+
+

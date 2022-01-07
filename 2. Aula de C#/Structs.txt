@@ -1,0 +1,37 @@
+São estruturas de dados que podem ter membros de dados e de ação, são do tipo valor e requerem alocação de heap
+
+Uma variável de um tipo de struct armazena diretametne os dados da estrutura, enquanto uma variável de um tipo 
+classe armazena uma referência a um objeto alocado na memória
+
+Não aceitam herança
+
+é uma estrutura mais simples
+
+Utilizadas para números complexos, pontos em um sistema de coordenadas ou pares de chave-valor em um
+dicionário
+
+menos alocação de memória
+
+
+public static void Main ()
+{
+	Ponto [] pontos = new Ponto [100];
+	for (int i = 0; i < 100; i++)
+	    pontos [i] = new Ponto (i, i);
+
+public struct Ponto
+{
+	public int x, y;
+	public Ponto (int x, int y)
+	{
+		this.x = x;
+		this.y = y;
+	}
+}
+
+
+Constutores de structs são chamados com  o operador new
+
+
+
+

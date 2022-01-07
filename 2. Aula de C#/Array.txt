@@ -1,0 +1,49 @@
+Um array é uma estrutura de dados que contém um número x de elementos, todos do mesmo tipo, que são acessados
+através de índices computados.
+
+Arrays são tipos de referências e a declaração de uma variável array simplesmente reserva espaço para uma
+referência de uma instância de array.
+
+Ao criar um array é especificado o tamanho da nova instância, que é fixo durante todo o tempo de vida da instância
+
+Os índices dos elementos de um array variam de 0 a comprimento do array - 1 
+
+<< Array unidimensional >>
+
+int [] a = new int [10]  << inteiro de array "a", com 10 posições. Tamanho dele é 10
+
+for (int i = 0; i < a.Length; i++)
+{
+	a[i] = i * i; << a na posição x >>
+}
+for (int i = 0; i < a.Length; i++)
+{
+	Console.WriteLine ($"a[{i}] = {a[i]}"); << o a da posição x tem tal valor>>
+
+
+<<Array multidimensional>> matrizes
+
+int [,] a2 = new int [10, 5]; <<duas dimensões>>
+
+int[,,] a3 = new int [10, 5, 2]; <<três dimensões>>
+
+
+<<Inicializador de arrays>>
+
+int [] a = new int [] {1, 2, 3};
+
+int [] a = {1, 2, 3}
+
+int [] t = new int [3];
+
+
+t[0] = 1;
+t[1] = 2;
+t[2] = 3;
+
+int[] a = t;
+
+
+
+
+}

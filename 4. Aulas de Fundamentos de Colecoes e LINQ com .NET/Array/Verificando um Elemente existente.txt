@@ -1,0 +1,42 @@
+<<OperacoesArray>>
+
+using System;
+
+namespace Colecoes.Helper
+{
+    public class OperacoesArray
+    {
+
+	   public bool Existe(int[] array, int valor)
+        {
+            return Array.Exists(array, elemento => elemento == valor);
+        }
+
+<<Program>>
+
+using System;
+using System.Collections.Generic;
+using Colecoes.Helper;
+
+
+namespace Colecoes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+		OperacoesArray op = new OperacoesArray()
+		int[] array = new int[5] {6, 3, 8, 1, 9};
+
+		int[] arrayCopia = new int[10];
+
+		bool existe = op.Existe(array, 1);
+		
+		if (existe)
+		{
+			System.Console.WriteLine("Encontrei o valor {0}, valorProcurado);
+		}
+		else
+		{
+			System.Console.WriteLine("Não encontrei o valor");
+		}

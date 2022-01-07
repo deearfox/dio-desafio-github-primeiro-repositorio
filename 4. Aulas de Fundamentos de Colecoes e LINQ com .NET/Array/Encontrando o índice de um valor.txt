@@ -1,0 +1,45 @@
+<<OperacoesArray>>
+
+using System;
+
+namespace Colecoes.Helper
+{
+    public class OperacoesArray
+    {
+
+	public int ObterIndice(int[] array, int valor)
+        {
+            return Array.IndexOf(array, valor);
+        }
+
+<<Program>>
+
+using System;
+using System.Collections.Generic;
+using Colecoes.Helper;
+
+
+namespace Colecoes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+		OperacoesArray op = new OperacoesArray()
+		int[] array = new int[5] {6, 3, 8, 1, 9};
+
+		int[] arrayCopia = new int[10];
+		
+		int valorProcurado = 8;
+
+		int indice = op.ObterIndice(array, valorProcurado);
+
+ 
+		if (indice > -1)
+		{
+			System.Console.WriteLine("O indice do elemento {0} é: {1}");
+		}
+		else
+		{
+			System.Console.WriteLine("Valor não existe no array");
+		}

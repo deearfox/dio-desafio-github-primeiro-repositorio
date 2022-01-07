@@ -1,0 +1,7 @@
+static void InstrucaoForeach(string[] args)
+{
+	foreach (string s in args)  << para cada string "s" no array de strings, irei dar um WriteLine
+	{
+		Console.WriteLine(s);
+	}
+}

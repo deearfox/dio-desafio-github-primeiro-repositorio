@@ -1,0 +1,11 @@
+Pilar: Abstração
+
+Abstrair um objeto do mundo real para um contexto específico, considerando apenas os atributos 
+importantes.
+
+Exemplo: 
+
+Classe: Pessoa (Nome (string). Idade(int). Cargo (string). Matérias (string))
+
+Abstrair as informações mais importantes dessa classe.
+

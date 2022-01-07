@@ -1,0 +1,59 @@
+Uma interface define um contrato que pode ser implementado por classes e structs.
+
+Uma interface pode conter métodos, propriedades, eventos e indexadores.
+
+Uma interface não fornece implementações dos membros que define - apenas suas "assinaturas"
+
+
+interface IControl
+{
+	void Paint ();
+}
+interface IListBox
+{
+	void SetText (string text);
+}
+interface IComboBox: ITextBox, IListBox {}
+
+interface IDataBound
+{
+	void Bind(Binder b);
+}
+public class EditBox: IComboBox, IDataBound
+{
+	public void Paint () { }
+	public void SetText (string text) {
+	public void Bind (Binder b) { }
+
+
+Enums
+
+É um tipo de valor distinto com um conjunto de constantes nomeadas. Eles são valores discretos.
+Atribui um valor mais semântico.
+
+enum Cor 
+{ 
+	Vermelho,
+	Verde,
+	Azul,
+}
+
+static void EscreverCor(Cor cor)
+{
+	switch (cor)
+	{
+		case Cor.Vermelho:
+			Console.WriteLine("Vermelho");
+			break;
+		case Color.Verde:
+			Console.WriteLine("Verde");
+			break;
+}	
+
+
+enum Alinhamento: sbyte
+{
+	Esquerda = - 1.
+	Centro = 0,
+	Direita = 1
+}

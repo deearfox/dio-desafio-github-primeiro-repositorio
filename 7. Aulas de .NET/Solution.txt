@@ -1,0 +1,18 @@
+Serve para você agrupar um ou mais projetos para facilitar a organização 
+dos projetos.
+
+Passo a passo:
+
+<<cmd>> 
+
+1. dotnet new sln --name Colecoes
+
+2. dotnet new console --name Colecoes
+
+3. dotnet sln add Colecoes/Colecoes.csproj
+
+4. code .
+
+
+
+

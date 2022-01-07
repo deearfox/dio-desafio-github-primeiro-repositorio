@@ -1,0 +1,92 @@
+Por que Microsserviços?
+
+Colméia. Facilitar e agilizar os processos.
+
+Monolitos é uma estrutura geolófica, como uma montanha, por exemplo, constituído por uma única e maciça 
+pedra ou rocha.
+
+Rápido e fácil para iniciar
+Infraestrutura simples
+Debug fascinante
+
+Problemas com merge-conflicts
+Conexões simultâneas TCP é limitada
+Deadlock e concorrência
+Bugs e defeitos colaterais (único ponto de falha)
+Build/Deploy longos pesados
+Baixa escabilidade
+Agregação de tecnologia
+Demora de aculturamento
+...
+
+Escabilidade Vertical
+
+Escabilidade Horizontal - Loader Balancer
+
+
+User - API Manager Load Balancer - Micro Serviço 1 - E-commerce - carrinho de compra, detalhamento de compra, lista de compra...
+				 - Micro Serviço 2
+				 - Micro Serviço 3
+				 - Micro Serviço 4	
+Escalar os serviços por demanda.
+
+2001 - Manifesto Ágil
+
+Uncle Bob
+
+Desenvolver software mais ágeis. 
+é a união de processos
+
+Code. Plan. Monitor. Operarat. Deploy. Release. Test. Build.
+DEV/OPS
+
+Feedbacks rápidos.
+Aprendizado do que estou fazendo
+Valor necessário que o mercado pede
+
+Ecossistema de Microsserviços
+
+Shopping Cart UI
+
+User Account - Product Catalog - Inventory - Order
+DB 		DB		    DB 	      DB
+
+Domínio, escabilidade, segregação
+
+<<API Pública>>
+
+Micro serviços podem e devem ser poliglotas em seus stacks
+API Pública  - API Pública (Java, .NETCore, Node, MongoDB...)
+
+Estado(dados) Comportamento(Regras de Negócios) = Business Capability
+
+deploy independentes
+
+VM - Container - Service Instance
+
+Micro serviços devem ter tratamentos isolado à falhas...
+
+Domínios que são compartilhados. O modelo seja extensivel em 2. 
+Estado - Comportamento
+
+
+Bounded Context - Até onde vai o meu serviço. Quais são as formas que eu farei a integração. Lingua de negócio.
+Mapa de contexto - são todos os domínios. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

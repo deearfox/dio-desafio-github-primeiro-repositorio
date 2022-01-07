@@ -1,0 +1,8 @@
+.NET Framework - Ano 2002 - Só roda em Web/Windows
+
+.NEt Core - Ano 2016 - Roda em Web/Windows/Linux/MacOS
+
+.NEt Standard - Bibliotecas de classe base
+
+.NET 5 - Ano 2020 - Plataforma unificada
+

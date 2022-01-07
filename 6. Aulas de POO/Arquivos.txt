@@ -1,0 +1,6 @@
+O C# nos apresenta algumas classes estáticas que facilitam o trabalho com arquivos, dentre elas:
+
+File - manipular arquivos (criar, mover, apagar)
+Directory - alterações com diretórios (obter, listar, criar diretórios)
+Path - organizar os seus caminhos de uma maneira lógica 
+

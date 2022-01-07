@@ -1,0 +1,22 @@
+static void InstrucaoReturn()
+{
+	int Somar(int a, int b)
+	{
+		return a + b;
+	}
+
+	Console.WriteLine(Somar(1, 2));
+	Console.WriteLine(Somar(3, 4));
+	Console.WriteLine(Somar(5, 6));
+	return;
+}
+
+
+
+
+Método: InstrucaoReturn, onde você recebe os argumentos
+Void: esse método não retorna nenhum valor, ele executa alguma coisa mas não retorna nada.
+Somar: Ele irá retornar a soma de a e b
+
+
+

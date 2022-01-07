@@ -1,0 +1,38 @@
+Um construtor é um método especial, contém o mesmo nome do seu tipo classe e tem o objetivo definir valores objeto.
+
+Não possui um retorno.
+É sempre definido.
+Uma classe pode ter mais de um construtor.
+
+Exemplo:
+
+public Pessoa () - chamando "Pessoa"
+
+public Pessoa(string nome) - passa um valor em string pra ele
+
+{
+	this.nome = nome;
+}
+
+static void
+
+Pessoa p1 = new Pessoa() - Chamando os construtores
+
+
+<< cmd >>
+
+Criar uma solution para agrupar nossos projetos:
+
+dotnet new sln --name ExemploConstrutores
+
+Criar projeto tipo console
+
+dotnet new console --name ExemploConstrutores
+
+Adicionar o nosso projeto a nossa solution 
+
+dotnet sln add ExemploConstrutores/ExemploConstrutores.csproj
+
+Executar o visual code
+
+code .

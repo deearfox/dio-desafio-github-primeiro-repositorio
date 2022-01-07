@@ -1,0 +1,21 @@
+A POO é um paradigma de programação, ou seja, corresponde a uma técnica de programação para um fim
+específico. Aproxima do mundo real.
+
+Dentro desta técnica, existem quatro pilares:
+
+Abstração
+Encapsulamento
+Herança
+Polimorfirsmo
+
+2 atributos principais:
+
+Classe: "Molde". Exemplo: Pessoa (Nome (string), idade (int)...). Abstração de algo do mundo real
+que queira representar no mundo da programação. Exemplo: Receita do bolo, planta de uma casa.
+
+Objeto: É a própria pessoa. Bolo. Casa.
+
+
+
+
+

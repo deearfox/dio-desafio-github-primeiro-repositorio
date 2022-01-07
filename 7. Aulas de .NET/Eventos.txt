@@ -1,0 +1,8 @@
+Eventos é um mecanismo de comunicação entre objetos.
+Uma ação ocorre quando uma outra determinada ação ocorrer.
+
+Publisher - realiza o evento.
+
+Subscriber - Inscreve um evento.
+
+EventHandler - executado no final de toda ação

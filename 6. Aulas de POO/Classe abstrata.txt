@@ -1,0 +1,89 @@
+Uma classe abstrata tem como objetivo ser exclusivamente um modelo para ser herdado, portanto não
+pode ser instaciada.
+Você pode implementar métodos ou deixa-los a cargo de quem herdar.
+
+Conta: classe abstrata (modelo). Obrigatório sobrescrever caso deseje herdar de conta.
+
+- Saldo: double
+
++ Creditar() 
++ ExibirSaldo()
+
+Corrente
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace ExemploPOO.Models
+{
+    public abstract class Conta
+    {
+        protected double saldo;
+
+        public abstract void Creditar();
+
+        public void ExibirSaldo()
+        {
+            System.Console.WriteLine("Seu saldo é: " + saldo);
+        }
+    }
+}
+
+*protected: somente a própria classe e a classe filha possa acessar. Nenhuma propriedade de fora pode 
+acessar ela
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace ExemploPOO.Models
+{
+    public class Corrente : Conta
+    {
+        public override void Creditar(double valor)
+        {
+            base.saldo = valor;
+        }
+    }
+}
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace ExemploPOO.Models
+{
+    public abstract class Conta
+    {
+        protected double saldo;
+
+        public abstract void Creditar(double valor);
+
+        public void ExibirSaldo()
+        {
+            System.Console.WriteLine("Seu saldo é: " + saldo);
+        }
+    }
+}
+
+
+
+using System;
+using ExemploPOO.Models;
+
+namespace ExemploPOO
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Corrente c = new Corrente();
+            c.Creditar(100);
+
+            c.ExibirSaldo();

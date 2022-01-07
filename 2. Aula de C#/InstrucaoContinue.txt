@@ -1,0 +1,11 @@
+static void InstrucaoContinue(string[] args)
+{
+	for (int i = 0; i < args.Length; i++)
+	{
+		if (args[i].StartsWith("/") << se ele começar com "/", continua >>
+		{
+			continue;
+		}
+		Console.WriteLine(args[i]);
+	}
+}

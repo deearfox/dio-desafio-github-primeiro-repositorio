@@ -1,0 +1,26 @@
+dir + ENTER: lista os diretórios e todas as pastas contidas nele.
+ls + ENTER
+
+cd /(change directory): navegar entre as pastas.
+
+cd Windows
+
+cd.. retrocede um nível.
+
+cls: limpar a tela
+Ctrl + L 
+clear
+
+Tab: auto completar
+
+mkdir: criar pasta
+
+echo: printa uma frase, texto
+
+echo hello >: redirecionamento de fluxo
+
+del: deleta tudo que esta dentro da pasta
+
+"seta para cima": navega no histórico de comandos que já utilizou
+
+rmdir /S /Q: remove o repositório

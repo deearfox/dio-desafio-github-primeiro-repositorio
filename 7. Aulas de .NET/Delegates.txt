@@ -1,0 +1,5 @@
+Delegate é uma maneira de passar um método como referência (callback).
+Aceita qualquer método que contenha a mesma assinatura
+
+Multi Cast Delegate - chamar vários métodos em sequência em uma única chamada
+do seu delegate.

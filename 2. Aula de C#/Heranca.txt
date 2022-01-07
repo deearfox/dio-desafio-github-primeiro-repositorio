@@ -1,0 +1,80 @@
+namespace Classes.Heranca
+{
+	public class Ponto
+	{
+	
+		public int x, y;
+	
+		private int distancia;
+	
+
+		public Ponto(int x, int y)
+		{
+			this.x = x;
+			this.y = y;
+		}
+
+	protected void CalcularDistancia()
+	{
+		CalcularDistancia2();
+	}
+	
+	private void CalcularDistancia2()
+	{
+		//Faz alguma coisa
+	}
+	public override void CalcularDistancia3()
+	{
+		//Faz alguma coisa
+	}
+
+
+namespace Classes.Heranca
+{
+	public class Ponto3D : Ponto
+	{
+		
+		public int z;
+	
+		public Ponto3D(int x, int y, int z) : base(x, y)  <<construtor>>
+		{
+			this.z = z;
+			CalcularDistancia();
+		}
+		
+
+		public static void Calcular()
+		{
+			//Faz alguma coisa
+		}
+		public override void CalcularDistancia3()
+		{
+			//Faz alguma coisa
+			base.CalcularDistancia3();
+		}
+}
+
+
+<<Instanciar>>
+
+Program.cs
+
+using System;
+using Classes.Heranca;
+
+namespace Classes
+{
+	class Program
+	{
+
+		static void Main(string[] args)
+		{
+			Ponto p1 = new Ponto(10, 20);
+
+			Ponto p2 = new Ponto3D(10, 20, 30);
+
+			Ponto3D.Calcular();
+		}
+	}
+
+}

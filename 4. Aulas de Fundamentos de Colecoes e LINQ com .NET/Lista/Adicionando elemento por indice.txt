@@ -1,0 +1,44 @@
+<<OperacoesLista>>
+
+using System.Collections.Generic;
+
+namespace Colecoes.Helper
+{
+    public class OperacoesLista
+    {
+        public void ImprimirListaString(List<string> lista)
+        {
+             for (int i = 0; i < lista.Count; i++)
+           {
+               System.Console.WriteLine($"Indice {i}, Valor: {lista[i]}");
+           }
+        }
+    }
+}
+
+
+<<Program>>
+
+using System;
+using System.Collections.Generic;
+using Colecoes.Helper;
+
+namespace Colecoes
+{
+	class Program
+	{	
+		static void Main(string[] args)
+		{
+			OperacoesLista opLista = new OperacoesLista();
+			List<string> estados = new List<string<("SP", "MG", "BA");
+			
+			string[] estadosArray = new String[2] {"SC", "MT"};
+
+			
+			System.Console.WriteLine($"Quantidade de elementos na lista: {estados.Count}");
+
+			opLista.ImprimirListaString(estados);
+
+			estados.Insert(1 ,"RJ");
+
+			opLista.ImprimirListaString(estados);

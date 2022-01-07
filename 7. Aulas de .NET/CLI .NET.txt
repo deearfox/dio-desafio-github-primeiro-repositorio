@@ -1,0 +1,21 @@
+dotnet --version <<mostra a versão do dotnet que estou utilizando>>
+dotnet --help <<mostra todos os comandos que você pode utilizar com ele>>
+dotnet --info <<tras todas as versões utilizadas do dotnet>>
+dotnet new  <<cria um novo projeto/arquivo .NET>>
+dotnet new --list --tag web <<listar que está com WEB>>
+dotnet new --help <<opções que eu posso filtrar>>
+dotnet new console -o myApp <<cria o projeto com o nome>>
+cd MyApp <<acessa o diretório>>
+dotnet run <<executa o programa>>
+dotnet build << compila o projeto >>
+dotnet restore <<roda o código sem problema>>
+
+nuget 
+test 
+tool  
+
+
+CLI (Command-Line Interface) - Interface de Linha de Comando
+
+Processa os comandos que serão enviados para um programa de computador na forma de linhas de texto.
+

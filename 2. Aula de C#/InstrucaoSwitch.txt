@@ -1,0 +1,17 @@
+static void InstrucaoSwitch(string[] args)
+{
+	int numeroDeArgumentos = args.Length;
+	switch (numeroDeArgumentos)
+	{
+		case 0:
+			Console.WriteLine("Nenhum argumento");	
+			break;
+		case 1:
+			Console.WriteLine("Um argumento");
+			break;
+		default:
+			Console.WriteLine($"{numeroDeArgumentos} argumentos")
+			break;
+	}
+
+					

@@ -1,0 +1,13 @@
+static void InstrucaoBreak(string[] args) << instruções de repetição >>
+{
+	while (true)
+	{
+		string s = Console.ReadLine(); <<variável s, lê algo que a pessoa escrever >>
+		
+		if (string.IsNullOrEmpty(s))
+		{
+		   break;
+		}
+		Console.WriteLine(s);
+	}
+}

@@ -1,0 +1,11 @@
+É uma caixa de ferramentas, com ferramentas prontas que você pode utilizar do jeito que você 
+bem entender.
+
+Componentes.
+
+<<Runtime>>
+
+Bloco de notas e compila na linguagem binária do computado e assim executar o resultado esperado.
+
+ 
+

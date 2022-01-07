@@ -1,0 +1,8 @@
+O modoficador reandoly (somente leitura) bloqueia um campo contra alterações
+que não sejam em sua inicialização ou pelo prórpio construtor.
+
+Uma constante não pode ser modificada e representa um valor que só pode 
+ser atribuida no momento de sua inicialização
+
+const double pi = 3.14;
+System.Console.WriteLine(
